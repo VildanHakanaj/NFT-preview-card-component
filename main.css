@@ -14,8 +14,10 @@
 }
 
 
-html{
+html, body{
     font-family: 'Outfit', sans-serif;
+    width: 100%;
+    height: 100%;
 }
 
 .header{
@@ -39,15 +41,13 @@ html{
 }
 
 main{
-    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .card{
-    max-width: 327px;
     width: 327px;
     padding: 1.5rem;
     background-color: var(--very-dark-blue-card-bg);
