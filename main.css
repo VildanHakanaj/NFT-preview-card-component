@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --very-dark-blue-bg: #0D192C;
+    --very-dark-blue-card-bg: #15263F;
+    --soft-blue: #8BACD9;
+    --white: #ffffff;
+    --cyan: #00FFF8;
+}
