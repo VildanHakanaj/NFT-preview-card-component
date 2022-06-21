@@ -18,6 +18,7 @@ html, body{
     font-family: 'Outfit', sans-serif;
     width: 100%;
     height: 100%;
+    background-color: var(--very-dark-blue-bg);
 }
 
 .header{
@@ -59,7 +60,7 @@ main{
     cursor: pointer;
 }
 
-.card .header:hover .overlay{
+.card .header:hover .overlay, .card a:first-of-type:focus + .overlay{
     display: flex;
 }
 
@@ -120,14 +121,13 @@ main{
     border-radius: 50%;
 }
 
-.author a, .card h1{
+.author a, .card h1 a{
     cursor: pointer;
     text-decoration: none;
     color: var(--white);
-    transition: .1s ease-in;
 }
 
-.author a:hover, .card h1:hover{
+.author a:hover, .card h1:hover > a, .card h1 > a:focus, .author a:focus{
     color: var(--cyan);
 }
 
